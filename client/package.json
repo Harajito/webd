@@ -1,0 +1,17 @@
+{
+  "name": "projet-webdev",
+  "version": "1.0.0",
+  "description": "bz",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "1.12.4",
+    "axios": "^0.19.2",
+    "nodemon": "^2.0.2"
+  }
+}

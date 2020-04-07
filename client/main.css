@@ -1,0 +1,119 @@
+html,
+
+body
+{
+    height: 100%;
+    
+    font: 100% georgia, sans-serif;
+}
+.background{
+    background-image:url("https://www.ataraksy.com/wp-content/uploads/2019/05/verre-deau.jpg" );
+    background-size: cover;
+    
+  
+    background-position: center center;
+}
+.container
+{
+    min-width: 40em;
+    max-width: 80%;
+    margin-right:   auto;
+    margin-left:   auto;
+    
+
+}
+.text--center
+{
+    text-align: center;
+}
+.text--shadow
+{
+    text-shadow: 1px 1px 2px blue ;
+}
+.discussion
+{
+overflow-y: auto;
+border:1px solid black;
+min-height: 4em;
+max-height: 8em;
+background-color: white;
+}
+.message
+{
+width:100% ;
+background-color: wheat;
+}
+.nickname
+{
+
+}
+.OK
+{
+
+}
+.tabs
+{
+    list-style: none;
+}
+.tabs__tab
+{
+    display: inline-block;
+
+}
+.u-flex
+{
+    display:flex ;
+
+}
+.u-flex--column
+{
+    flex-direction: column;
+}
+.u-flex__item
+{
+    flex: 1 1 auto;
+}
+.center_div
+{
+    margin: 0 auto;
+    width: 100px;
+}
+.intro
+{
+    
+    background-color: rgba(250, 250, 250, 0.8);
+    box-shadow: 0 2px 1px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 1px; /* 5px rounded corners */
+    padding: 2em;
+}
+/*.style_links
+{
+    background-color: navy;
+    font: 100% georgia, sans-serif;
+    font-weight:bold ;
+
+}*/
+div a:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content:" ";
+    clear: both;
+    height: 0;
+}
+
+.divider {
+     border-left:1px solid #38546d; 
+     border-right:1px solid #16222c; 
+     height:80px;
+     position:absolute;
+     right:249px;
+     top:10px; 
+}
+
+.footer
+{
+background-color : whitesmoke;
+
+}
